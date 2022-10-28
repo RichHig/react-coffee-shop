@@ -1,0 +1,41 @@
+section {
+  padding: 50px 100px;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-text h1 {
+  font-size: 3.4rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-text p {
+  font-size: 0.93rem;
+  color: var(--bg-color);
+  margin: 0.5rem 0 1.4rem;
+}
+
+.btn {
+  padding: 10px 40px;
+  border-radius: 0.3rem;
+  background: var(--primary-color);
+  color: var(--bg-color);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #8a6f4d;
+}

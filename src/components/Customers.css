@@ -1,0 +1,39 @@
+.customers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.customers-container .box {
+  padding: 20px;
+  box-shadow: rgb(241, 241, 241) 0px 0px 10px 4px;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.stars {
+  color: var(--primary-color);
+}
+
+.customers-container .box p {
+  font-size: 0.938rem;
+}
+
+.customers-container .box h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.customers-container .box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customers-container .box:hover {
+  background: var(--secondary-color);
+  transition: 0.2s all linear;
+}
